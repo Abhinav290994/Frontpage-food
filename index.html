@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Food Express</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="row clearfix">
+          <img src="image/express.jpg" class="logo">
+          <ul class="main-nav animated slideInDown" id="check-class">
+            <li><a href="#">Food Delivery</li>
+            <li><a href="#">Location</li>
+            <li><a href="contact.html">Contact us</li>
+            <li><a href="login.html">Login/Signup</li>
+         </ul>
+         <a href="#" class="mobile-icon" onclick="slideshow()"> <i class="fa fa-bars"></i></a>
+      </div>
+      </nav>
+      <div class="main-content-header animated slideInDown">
+        <h1>Welcome To <span class="change">Food Express</span></h1>
+      <h1>WE BELIEVE IN DELICIOUS FOOD & BETTER SERVICE </h1>
+    </div>
+    <div class="button animated slideInDown">
+        <a href="#" class="btn btn-full">Order Now</a>
+        <a href="#" class="btn btn-low">Offers</a>
+
+      </div>
+      </header>
+      <script type="text/javascript">
+        function slideshow(){
+          var x= document.getElementById('check-class');
+          if(x.style.display ==="none"){
+            x.style.display="block";
+          }else{
+          x.style.display="none";
+}
+        }
+</script>
+  </body>
+
+</html>
